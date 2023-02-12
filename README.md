@@ -48,5 +48,6 @@ Because the probability P(x) in all cases is the same, we can conclude the last 
 
 After calculating mean and variance for each of the ten classes, we can conclude:
 
+![image](https://user-images.githubusercontent.com/125180530/218306115-9d5a234e-3086-465a-a5b0-8af3a846ee1c.png)
 
 So, for all the classes we should calculate the above equation, and then among the calculated probabilities we should choose the class which has the maximum probability. Finally, I implement a function for accuracy calculation and report the accuracy of the implemented model.
