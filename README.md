@@ -44,10 +44,9 @@ For implementing the Naive Bayes algorithm we should follow the below formula:
 
 Because the probability P(x) in all cases is the same, we can conclude the last equation. If we assume that the distribution of the features is all Gaussian, then we can say:
 
-![image](https://user-images.githubusercontent.com/125180530/218305616-deab70bf-5435-48d7-a8d2-4ff877a2c5d5.png)
+![image](https://user-images.githubusercontent.com/125180530/218306088-922a6936-273e-4fed-aa38-b7581f2f7713.png)
 
 After calculating mean and variance for each of the ten classes, we can conclude:
 
-![Uploading image.png…]()
 
 So, for all the classes we should calculate the above equation, and then among the calculated probabilities we should choose the class which has the maximum probability. Finally, I implement a function for accuracy calculation and report the accuracy of the implemented model.
